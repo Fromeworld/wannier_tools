@@ -7,7 +7,7 @@ WT.out
 *.dat*
 *.gnu
 *.png
-*.in
+# *.in
 POSCAR-*
 *.eps
 bulkek.pdf
