@@ -68,3 +68,6 @@ rm -f    wanniercenter3D_Z2_5.dat
 rm -f    wanniercenter3D_Z2_6.dat
 rm -f    wcc.dat
 rm -f    wcc.gnu
+
+# 
+rm -f *.png
