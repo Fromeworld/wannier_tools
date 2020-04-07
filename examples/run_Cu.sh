@@ -5,7 +5,7 @@ cd ./Cu/
 # This is a example for calculating ordinary magnetoresistance with given magnetic field direction.
 # 1. Calculate band structure and Fermi surface
 cp wt.in-bands wt.in
-mpiexec -np 4 wt.x
+mpiexec -np 4 ../../src/wt.x
 gnuplot bulkek.gnu
 # xcrysden --bxsf FS3D.bxsf
 
