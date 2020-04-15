@@ -3,7 +3,7 @@
 python haldane_hr_gen-chern-insulator.py
 cp wt.in-chern-insulator wt.in
 # Run WannierTools
-mpirun -np 2 wt.x
+mpirun -np 2 ../../src/wt.x
 # Plot band structure
 gnuplot bulkek.gnu
 gnuplot bulkek_plane.gnu

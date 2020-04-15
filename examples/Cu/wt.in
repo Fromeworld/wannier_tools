@@ -12,7 +12,7 @@ Symmetry_Import_calc = T ! please set it to be true for magnetoresistance calcul
 &SYSTEM
 SOC = 0                ! without soc : SOC=0; with soc : SOC=1
 E_FERMI = 7.7083       ! e-fermi
-Btheta= 45, Bphi= 90    ! magnetic field direction, Btheta is the angle with z axial, Bphi is the angle with respect to x axial in the x-y plane
+Btheta= 0, Bphi= 90    ! magnetic field direction, Btheta is the angle with z axial, Bphi is the angle with respect to x axial in the x-y plane
 NumOccupied = 6        ! set it anyway even don't use it.
 /
 

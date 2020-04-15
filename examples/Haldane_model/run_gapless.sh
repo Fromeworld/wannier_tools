@@ -1,7 +1,7 @@
 # !/bin/bash
 python haldane_hr_gen-gapless.py
 cp wt.in-gapless wt.in
-mpirun -np 2 wt.x
+mpirun -np 2 ../../src/wt.x
 
 gnuplot bulkek.gnu
 gnuplot bulkek_plane.gnu

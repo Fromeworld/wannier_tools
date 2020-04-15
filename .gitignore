@@ -18,3 +18,8 @@ arc*
 *ahc.pdf
 *ahc.txt
 *abs.txt
+
+log
+
+.bash_history
+*.jdl
